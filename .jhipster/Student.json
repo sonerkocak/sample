@@ -1,0 +1,36 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength"
+            ],
+            "fieldValidateRulesMinlength": "2"
+        },
+        {
+            "fieldName": "number",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "gender",
+            "fieldType": "GenderType",
+            "fieldValues": "MALE,FEMALE",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20170918200618",
+    "dto": "no",
+    "service": "serviceClass",
+    "entityTableName": "student",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

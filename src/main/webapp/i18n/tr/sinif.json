@@ -1,0 +1,22 @@
+{
+    "soseApp": {
+        "sinif" : {
+            "home": {
+                "title": "Sınıflar",
+                "createLabel": "Yeni Sınıf Oluştur",
+                "createOrEditLabel": "Sınıf ekle ya da güncelle"
+            },
+            "created": "{{ param }} Id'li bir sınıf oluşturuldu.",
+            "updated": "{{ param }} Id'li sınıf güncellendi.",
+            "deleted": "{{ param }} Id'li sınıf silindi",
+            "delete": {
+                "question": "Sınıf {{ id }} kaydını silmek istediğinizden emin misiniz?"
+            },
+            "detail": {
+                "title": "Sınıf"
+            },
+            "adi": "Adı",
+            "aciklama": "Açıklama"
+        }
+    }
+}
